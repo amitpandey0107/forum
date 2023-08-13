@@ -9,7 +9,7 @@ export default function WithHeader() {
 
       <TopBar />
 
-      <div className="flex justify-start items-center w-[1200px] flex-wrap flex-col pb-2">
+      <div className="flex justify-start items-center xl:w-[1200px] lg:w-full flex-wrap flex-col pb-2">
         <div className="flex w-full mb-[15px] px-2"><Image height={1000} width={1170} className="h-full w-full" src="/img/1.jpg" alt="forum" /></div>
         <div className="flex w-full mb-[15px] px-2"><Image height={1000} width={1170} className="h-full w-full" src="/img/2.jpg" alt="forum" /></div>
         <div className="flex w-full mb-[15px] px-2"><Image height={1000} width={1170} className="h-full w-full" src="/img/3.jpg" alt="forum" /></div>

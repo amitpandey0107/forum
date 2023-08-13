@@ -1,0 +1,82 @@
+.topNav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.desktopMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.desktopMenu1 {
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width:990px) {
+    .mobileMenu {
+        display: flex;
+        position: absolute;
+        left: 15px;
+        top: 17px;
+    }
+
+    .desktopMenu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        height: auto;
+        background-color: #132031;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 0px 15px;
+    }
+
+    .logo {
+        margin: 15px 0;
+    }
+
+    .menuWrap {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navigation li {
+        width: 100%;
+        padding: 5px 0;
+    }
+    .desktopMenu1 {
+        display: none;
+    }
+}

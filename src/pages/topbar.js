@@ -9,14 +9,14 @@ export default function TopBar() {
         setShow(!show)
     }
     return (
-        <div className={`bg-[#132031] h-[80px] w-full flex justify-between items-center px-3 ${Styles.topNav}`}>
+        <div className={`bg-[#132031] h-[50px] w-full flex justify-between items-center px-3 ${Styles.topNav}`}>
             <div className={`${Styles.mobileMenu}`}>
                 <button onClick={toggleMenu}>
                     <Image
                         src="/img/svg/menu-white.svg"
                         alt="menu"
-                        height={44}
-                        width={44}
+                        height={34}
+                        width={34}
                     />
                 </button>
             </div>
